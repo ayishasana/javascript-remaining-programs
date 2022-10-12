@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function class</title>
+    </head>
+    <body>
+        <script>
+            class student
+            {
+                constructor(id,name,place)
+                {
+                    this.id=id;
+                    this.name=name;
+                    this.place=place;
+                }
+                detail()
+                {
+                    document.write(this.id+" "+this.name+" "+this.place+"<br>");
+                }
+            }
+            var s1=new student(101,"henna", "kannur");
+            var s2=new student(102,"sana" ,"kozhikode");
+            s1.detail();
+            s2.detail();
+             </script>
+         </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function inheritance</title>
+    </head>
+    <body>
+        <script>
+            class Brand
+            {
+                constructor()
+                {
+                    this.company="Honda";
+                }
+            }
+            class vehicle extends Brand
+            {
+                constructor(name,price)
+                {
+                    super();
+                    this.name=name;
+                    this.price=price;
+                }
+            }
+            var v=new vehicle("Activa","700");
+            document.write(v.company+" "+v.name+" "+v.price);
+            </script>
+            </body>
+            </html>
+
+                
+            
